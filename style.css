@@ -99,6 +99,39 @@ nav button {
     cursor: pointer;
 }
 
+.language-selector {
+  position: relative;
+  display: inline-block;
+}
+
+
+.language-options {
+  display: none;
+  position: absolute;
+  background-color: rgba(23, 23, 23, 0.9);
+  border: 1px solid #ccc;
+  padding: 8px 0;
+  z-index: 20;
+  min-width: 120px;
+}
+
+
+.language-options.show {
+  display: block;
+}
+
+
+.language-options div {
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.language-options div:hover {
+  background-color: #555;
+}
+
+
 .btn-red {
     background-color: red;
     color: white;
